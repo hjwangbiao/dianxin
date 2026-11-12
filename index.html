@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="点薪 · 记班次、算工资，数据只留本机。工时日历、自动算薪、月度总结、上班鼓励器，一款为打工人体制的安卓记工 App。" />
+<meta name="format-detection" content="telephone=no" />
+<title>点薪 · 记班次算工资的安卓 App</title>
+<link rel="icon" type="image/png" href="img/icon.png" />
+<link rel="stylesheet" href="css/site.css" />
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+    <div class="wrap topbar-in">
+        <a class="brand" href="#top">
+            <span class="brand-coin">¥</span>
+            <span class="brand-name">点薪</span>
+        </a>
+        <nav class="nav" id="nav">
+            <a href="#features">功能</a>
+            <a href="#shots">截图详解</a>
+            <a href="#download">下载</a>
+            <a href="#faq">常见问题</a>
+            <a href="#feedback">反馈</a>
+        </nav>
+        <a class="btn btn-gold btn-sm" href="download/dianxin-android-2.8.0.apk">下载 App</a>
+        <button class="nav-burger" id="navBurger" aria-label="菜单">☰</button>
+    </div>
+    <nav class="nav-drop" id="navDrop">
+        <a href="#features">功能</a>
+        <a href="#shots">截图详解</a>
+        <a href="#download">下载</a>
+        <a href="#faq">常见问题</a>
+        <a href="#feedback">反馈</a>
+    </nav>
+</header>
+
+<main id="top">
+
+    <!-- ============ 首屏 ============ -->
+    <section class="hero">
+        <div class="wrap hero-in">
+            <div class="hero-copy">
+                <p class="hero-kicker">安卓 App · v2.8.0 · 数据只留本机</p>
+                <h1>每天点一点<span class="dot">·</span>工资看得见</h1>
+                <p class="hero-sub">
+                    「点薪」是一款给上班族的记工算薪 App：日历上点一下就记完工时，
+                    工资、加班、补助、请假自动算得清清楚楚；上班时打开鼓励器，
+                    看着自己的工资一秒一秒往上涨。
+                </p>
+                <div class="hero-actions">
+                    <a class="btn btn-gold" href="download/dianxin-android-2.8.0.apk">⬇ 下载安卓安装包</a>
+                    <a class="btn btn-ghost" href="#shots">先看截图</a>
+                </div>
+                <ul class="hero-points">
+                    <li>免注册：填个用户名就能用</li>
+                    <li>不联网：数据存在手机本机</li>
+                    <li>算法透明：每分钱都有公式</li>
+                </ul>
+            </div>
+            <div class="hero-shots">
+                <div class="phone" id="heroPhone">
+                    <img id="heroImg" src="img/calendar.png" alt="点薪截图" />
+                    <div class="phone-dots" id="heroDots"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 功能亮点 ============ -->
+    <section class="section" id="features">
+        <div class="wrap">
+            <h2 class="sec-title">它能帮你做什么</h2>
+            <p class="sec-sub">围绕「记工 → 算薪 → 到手多少」这条主线，把每一分钱都算明白。</p>
+            <div class="feat-grid">
+                <div class="feat">
+                    <div class="feat-ico">▦</div>
+                    <h3>工时日历</h3>
+                    <p>点任意日期即可记白班 / 夜班 / 请假，格子上直接显示工时与状态。法定节假日自动标「休」，周末自动换色，本月预估工资始终置顶。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">¥</div>
+                    <h3>自动算薪</h3>
+                    <p>时薪 = 月薪 ÷ 21.75 ÷ 8，工作日超出按 1.5 倍、周末 2 倍、节假日 3 倍，夜班另有倍率。支持标准工时、综合工时、不定时三种制度。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">≡</div>
+                    <h3>月度总结</h3>
+                    <p>一张「月结单」拆解当月收入：基础工资、工时外补助、请假工资逐项列明，班次明细逐日核对，每一笔都有公式可查。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">⚡</div>
+                    <h3>上班鼓励器</h3>
+                    <p>上班打卡后实时跳动：今天已赚多少、每秒涨多少、本月累计多少，还能换算成奶茶、午饭和地铁票，让摸鱼都有动力。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">✚</div>
+                    <h3>补助与请假</h3>
+                    <p>夜班补助、超时补助、车补、每月固定补助按自己的规则开关；九种请假假别单独设工资保留比例，病假 80%、事假 0% 都随你定。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">🔔</div>
+                    <h3>每日鼓励通知</h3>
+                    <p>每天早晨在状态栏和锁屏推一条鼓励的话，元气满满地开始这一天；提醒时间与寄语都能在设置里改。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">🔒</div>
+                    <h3>数据只留本机</h3>
+                    <p>全部数据存进手机私有目录的 SQLite 数据库，不联网、不上传、不收集任何信息；支持导出 SQL 备份，换手机不丢账。</p>
+                </div>
+                <div class="feat">
+                    <div class="feat-ico">⭮</div>
+                    <h3>自动检查更新</h3>
+                    <p>启动时自动检测新版本，发现新版会弹窗提示，点一下就能去下载最新安装包，不用经常回来翻网站。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 截图详解 ============ -->
+    <section class="section section-alt" id="shots">
+        <div class="wrap">
+            <h2 class="sec-title">功能截图详解</h2>
+            <p class="sec-sub">真实界面截图，每一张都能在 App 里找到。</p>
+
+            <div class="detail">
+                <div class="detail-shot"><div class="phone phone-sm"><img src="img/calendar.png" alt="工时日历" loading="lazy" /></div></div>
+                <div class="detail-copy">
+                    <h3>① 工时日历 · 点一下就记完</h3>
+                    <p>日历按周排布，已记的日子直接显示工时：绿色代表白班、红色代表夜班、黄色代表请假。当月预估工资、出勤天数、总工时、白班夜班构成在顶部一目了然。</p>
+                    <ul>
+                        <li>法定节假日自动带「休」角标，调休上班日标「班」</li>
+                        <li>周六周日整格换色，一眼区分工作日与周末</li>
+                        <li>周末加班、节假日值班按倍率单独计入</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail detail-flip">
+                <div class="detail-shot"><div class="phone phone-sm"><img src="img/sheet.png" alt="记工时弹窗" loading="lazy" /></div></div>
+                <div class="detail-copy">
+                    <h3>② 记工时 · 细节都在弹窗里</h3>
+                    <p>点开任意日期弹出记工面板：班次三选一，日期类型可自动判断也可手动指定（周末 / 节假日），常用工时一键选择，备注随手记。</p>
+                    <ul>
+                        <li>「当天工资」实时预览，保存前就知道这天值多少钱</li>
+                        <li>请假走同一名目：选假别、填小时，比例自动套用</li>
+                        <li>已记录的日期再次点开即可修改或删除</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="detail-shot"><div class="phone phone-sm"><img src="img/summary.png" alt="月度总结" loading="lazy" /></div></div>
+                <div class="detail-copy">
+                    <h3>③ 月度总结 · 一张透明的月结单</h3>
+                    <p>应发合计、基础工资、工时外补助、请假工资逐项拆开，夜班补助按夜班天数、固定补助按月计入；下方班次明细逐日列出金额，随时核对。</p>
+                    <ul>
+                        <li>计算公式完整展示：月薪 ÷ 计薪天数 ÷ 日工时 = 时薪</li>
+                        <li>支持按月回看，跨月加班调休不迷糊</li>
+                        <li>综合工时制按周期累计，期末统一结算加班</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail detail-flip">
+                <div class="detail-shot"><div class="phone phone-sm"><img src="img/motivate.png" alt="上班鼓励器" loading="lazy" /></div></div>
+                <div class="detail-copy">
+                    <h3>④ 上班鼓励器 · 亲眼看工资到账</h3>
+                    <p>设定上下班时间后，页面中央实时跳动「今日已赚」：每秒涨多少、每分钟涨多少、今天满勤值多少。下方还有本月累计和「可以买什么」换算。</p>
+                    <ul>
+                        <li>进度条显示距下班的剩余时间</li>
+                        <li>今日实时部分与已结算部分分开统计，口径不混</li>
+                        <li>工资按「工资设置」的时薪口径实时折算</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail">
+                <div class="detail-shot"><div class="phone phone-sm"><img src="img/settings.png" alt="工资设置" loading="lazy" /></div></div>
+                <div class="detail-copy">
+                    <h3>⑤ 工资设置 · 算法你说了算</h3>
+                    <p>三种工时制随便切；月薪、计薪天数、日工时、夜班 / 加班 / 周末 / 节假日倍率逐项可调。底部即时刷新时薪速查表，改完立刻看到影响。</p>
+                    <ul>
+                        <li>工时外补助：夜班 / 超时 / 车补 / 每月固定，各自开关</li>
+                        <li>请假工资：九种假别逐一设置保留比例</li>
+                        <li>不计算工资的时间段：自定义区间，鼓励器自动扣除</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="detail detail-flip">
+                <div class="detail-shot"><div class="phone phone-sm"><img src="img/login.png" alt="登录页" loading="lazy" /></div></div>
+                <div class="detail-copy">
+                    <h3>⑥ 登录与我的 · 一秒进入</h3>
+                    <p>首次使用只需填一个用户名（头像可选），之后自动登录直达日历页。不收手机号、不要验证码、不联网校验。</p>
+                    <ul>
+                        <li>「我的」页可换头像、看使用统计、退出当前用户</li>
+                        <li>支持多用户：不同的人在同一台手机上各自记录</li>
+                        <li>数据导出为标准 SQL，备份迁移都方便</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 下载 ============ -->
+    <section class="section" id="download">
+        <div class="wrap">
+            <h2 class="sec-title">下载点薪</h2>
+            <p class="sec-sub">安装包体积不到 100 KB，下载安装即用。</p>
+            <div class="dl-card">
+                <div class="dl-icon">¥</div>
+                <div class="dl-info">
+                    <h3>点薪 · Android</h3>
+                    <p class="dl-meta">版本 v2.8.0 · 约 82 KB · 需要 Android 5.0 及以上</p>
+                    <p class="dl-note">安装时如提示「未知来源应用」，选择允许即可；本 App 不申请网络上传权限，数据只保存在手机里。</p>
+                </div>
+                <a class="btn btn-gold btn-lg" href="download/dianxin-android-2.8.0.apk">⬇ 下载安装包</a>
+            </div>
+            <div class="changelog">
+                <h3>更新日志</h3>
+                <dl>
+                    <dt>v2.8.0 · 2026-11-10</dt>
+                    <dd>新增自动检查新版本；日历自动标注法定节假日「休」、周末换色；自定义不计时时间段；鼓励器算法修正。</dd>
+                    <dt>v2.5.1 · 2026-11-08</dt>
+                    <dd>启动页全新设计；窄屏排版优化；数据迁移到 SQLite 本机数据库。</dd>
+                    <dt>v2.4.0 · 2026-11-07</dt>
+                    <dd>新增上班鼓励器与每日鼓励通知；登录与头像功能；界面更名为「点薪」。</dd>
+                    <dt>v2.2.0 · 2026-11-05</dt>
+                    <dd>工时日历、月度总结、工资设置、补助与请假完整上线。</dd>
+                </dl>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ 常见问题 ============ -->
+    <section class="section section-alt" id="faq">
+        <div class="wrap wrap-narrow">
+            <h2 class="sec-title">常见问题</h2>
+            <details class="faq">
+                <summary>每天的工资是怎么算出来的？</summary>
+                <p>时薪 = 月基本工资 ÷ 月计薪天数（21.75）÷ 日标准工时（8）。工作日超出日标准工时的部分按「工作日加班倍率」，周六周日全天按「周末加班倍率」，法定节假日全天按「节假日加班倍率」，夜班工资再乘夜班倍率。所有倍率都能在「工资设置」里改。</p>
+            </details>
+            <details class="faq">
+                <summary>补助怎么计算？</summary>
+                <p>在「工资设置 → 工时外补助」里按种类单独开启：夜班补助按夜班天数发放；超时补助在单日工时超过门槛（默认 8 小时）时按天发放；车补同理；每月固定补助在当月有出勤或请假时按月发放。</p>
+            </details>
+            <details class="faq">
+                <summary>请假怎么记？工资怎么算？</summary>
+                <p>记工时时把班次切成「请假」，选择假别并填写小时数（默认 8 小时，半天可填 4）。当天工资 = 时薪 × 小时 × 该假别的保留比例（年假 100%、病假 80%、事假 0% 等，比例可自行调整）。</p>
+            </details>
+            <details class="faq">
+                <summary>我的数据安全吗？会传到网上吗？</summary>
+                <p>所有数据都保存在手机应用私有目录的 SQLite 数据库中，不联网、不上传、不收集任何个人信息。卸载应用会丢数据，建议定期在「工资设置」里导出 SQL 备份。</p>
+            </details>
+            <details class="faq">
+                <summary>换手机怎么迁移数据？</summary>
+                <p>旧手机「工资设置 → 导出数据（SQL）」导出脚本文件，新手机上导入即可；账号只需重新填一次用户名。</p>
+            </details>
+            <details class="faq">
+                <summary>发现新版本怎么更新？</summary>
+                <p>App 每次启动会自动检查新版本，发现新版会弹窗提示，点「立即下载」就能获取最新安装包。也可以随时回到本页面手动下载。</p>
+            </details>
+        </div>
+    </section>
+
+    <!-- ============ 反馈 ============ -->
+    <section class="section" id="feedback">
+        <div class="wrap">
+            <h2 class="sec-title">问题反馈与建议</h2>
+            <p class="sec-sub">
+                算错了工资？遇到显示问题？或者想要一个新功能？写下来告诉我们，
+                每一条反馈都会被认真对待。
+            </p>
+            <div class="fb-frame">
+                <iframe src="feedback.asp?embed=1" title="反馈表单" id="fbFrame"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="wrap">
+            <p>点薪 · 记班次、算工资，数据只留本机</p>
+            <p class="foot-sub">作者：彪行天下 · 本页面与本 App 均不收集任何用户数据</p>
+        </div>
+    </footer>
+
+</main>
+
+<script src="js/site.js"></script>
+</body>
+</html>
